@@ -1,0 +1,126 @@
+.App-header {
+  height: 60px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Home {
+  margin-top: 60px;
+  height: 100vh;
+  color: black;
+  position: relative;
+}
+
+footer {
+  background-color: #282c34;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+/* .currentWeather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+.effect {
+  width: 300px;
+  height: 45px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f8f8f8;
+  appearance: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+.effect-input {
+  width: 250px;
+  height: 25px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f8f8f8;
+  appearance: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+.effect-button {
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(56, 51, 51);
+  appearance: none;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.effect:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.countryName {
+  display: flex;
+  justify-content: space-between;
+}
+.cardImage {
+  background-image: url(./images/pexels-ithalu-dominguez-907485.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  .cardImage {
+    background-image: url(./images/pexels-ithalu-dominguez-907485.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+  }
+  footer {
+    background-color: #282c34;
+    width: screen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+    position: fixed;
+    bottom: 0;
+  }
+  .countryName {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px;
+  }
+  .effect-input {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    appearance: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+  }
+}
